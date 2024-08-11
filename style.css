@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+.logo{
+    width: 30%;
+}
+header{
+
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    margin-right: 2%;
+}
+.menu ul li{
+    display: inline-flex;
+    padding:20px ;
+}
+.navs{ font-weight: 600;
+    text-decoration:none ;
+    
+    color: antiquewhite;
+    border-radius: 5px;
+    &:hover{
+        background-color: orange    ;
+    }
+}
